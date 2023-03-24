@@ -1,0 +1,33 @@
+#include <ELECHOUSE_CC1101.h> http://electronoobs.com/eng_arduino_ELECHOUSE_CC1101.php
+#include <Servo.h>
+int received_number = 0;
+int LED = 3;
+int pos = 0;
+Servo myservo;
+ void setup()
+{
+  pinMode(LED, OUTPUT);
+  Serial.begin(9600);
+  ELECHOUSE_cc1101.Init();
+  ELECHOUSE_cc1101.SetReceive();
+  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+}
+byte RX_buffer[11]={0};
+byte size,i,flag;
+void loop()
+{
+  if(ELECHOUSE_cc1101.CheckReceiveFlag())
+  {
+    for (pos = 0; pos <= 90; pos += 1) { 
+    myservo.write(pos);              // tell servo to go to position in variable 'pos'
+    delay(15);                      
+ }
+    else{
+    for (pos = 90; pos > 0; pos -= 1){
+        myservo.write(pos);
+        delay(15);
+    }
+    }
+}
+}
+//upon receiving any data, will engage the servo, change position
