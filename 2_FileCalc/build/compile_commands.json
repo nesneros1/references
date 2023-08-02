@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/connor/calculator-project/2_FileCalc/build",
+  "command": "/usr/bin/gcc  -I/home/connor/calculator_project/1_SimpleCalc/include  -g   -o CMakeFiles/filecalc.dir/src/main.c.o   -c /home/connor/calculator-project/2_FileCalc/src/main.c",
+  "file": "/home/connor/calculator-project/2_FileCalc/src/main.c"
+}
+]

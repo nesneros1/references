@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/connor/calculator-project/1_SimpleCalc/build",
+  "command": "/usr/bin/gcc  -I/home/connor/calculator-project/1_SimpleCalc/include  -g   -o CMakeFiles/simplecalc.dir/src/main.c.o   -c /home/connor/calculator-project/1_SimpleCalc/src/main.c",
+  "file": "/home/connor/calculator-project/1_SimpleCalc/src/main.c"
+},
+{
+  "directory": "/home/connor/calculator-project/1_SimpleCalc/build",
+  "command": "/usr/bin/gcc  -I/home/connor/calculator-project/1_SimpleCalc/include  -g   -o CMakeFiles/simplecalc.dir/src/operations.c.o   -c /home/connor/calculator-project/1_SimpleCalc/src/operations.c",
+  "file": "/home/connor/calculator-project/1_SimpleCalc/src/operations.c"
+}
+]

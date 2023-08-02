@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/connor/calculator-project/2_FileCalc/src/main.c
+stdio.h
+-
+stdint.h
+-
+dirent.h
+-
+strings.h
+-
+string.h
+-
+inttypes.h
+-
+stdlib.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/gcc -g  -rdynamic CMakeFiles/filecalc.dir/src/main.c.o  -o filecalc 

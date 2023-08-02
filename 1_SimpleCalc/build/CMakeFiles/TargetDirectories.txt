@@ -1,0 +1,3 @@
+/home/connor/calculator-project/1_SimpleCalc/build/CMakeFiles/rebuild_cache.dir
+/home/connor/calculator-project/1_SimpleCalc/build/CMakeFiles/edit_cache.dir
+/home/connor/calculator-project/1_SimpleCalc/build/CMakeFiles/simplecalc.dir
